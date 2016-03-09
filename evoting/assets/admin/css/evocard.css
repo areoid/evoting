@@ -1,0 +1,29 @@
+#frame {
+	margin: 10px;
+	padding :10px;
+	width: 520px;
+	height: 250px;
+	background-color: #AAA;
+}
+
+#inline {
+	padding: 10px;
+	width: 500px;
+	height: 230px;
+	border: 2px solid;
+	border-radius: 3px;
+}
+
+#boxqr {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: #FFF;
+}
+
+#descqr {
+	float: right;
+	width: 270px;
+	height: 200px;
+	background-color: #FFF;
+}
