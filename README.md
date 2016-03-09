@@ -1,1 +1,4 @@
-#echo evoting
+#Evoting Framework
+
+Required:
+PHP >= 5.x
