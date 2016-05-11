@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase /evoting/ #you can change this path for your advance
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
